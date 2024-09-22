@@ -314,6 +314,125 @@ end run</string>
 					<false/>
 					<key>Types</key>
 					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.3.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>sortIndicator</key>
+					<dict/>
+					<key>sortOrder</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Sort Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Sort Finder Items</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>sortIndicator</key>
+					<integer>0</integer>
+					<key>sortOrder</key>
+					<integer>0</integer>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SortDiskItems</string>
+				<key>CFBundleVersion</key>
+				<string>1.3.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMSortDiskItemsAction</string>
+				<key>InputUUID</key>
+				<string>3B04E403-0382-4D7C-ACA7-54850F77BE42</string>
+				<key>Keywords</key>
+				<array>
+					<string>Sort</string>
+					<string>File</string>
+					<string>Folder</string>
+					<string>Name</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>A1A8F5F8-2D45-42B9-9A4A-B44D684F4899</string>
+				<key>UUID</key>
+				<string>579A45C3-23C4-4BDA-8A7F-1B15BE9281E1</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>sortOrder</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>sortIndicator</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<integer>1</integer>
+				<key>location</key>
+				<string>451.000000:554.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Sort Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
 						<string>com.apple.applescript.alias-object.pdf</string>
 					</array>
 				</dict>
@@ -394,7 +513,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>451.000000:626.000000</string>
+				<string>451.000000:726.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -514,7 +633,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>451.000000:726.000000</string>
+				<string>451.000000:826.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1000,7 +1119,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>451.000000:883.000000</string>
+				<string>451.000000:983.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1031,12 +1150,19 @@ end run</string>
 			<key>to</key>
 			<string>53B3EC2A-3006-481C-B785-90A761F845DA - 53B3EC2A-3006-481C-B785-90A761F845DA</string>
 		</dict>
-		<key>F6C21A10-AD77-4E56-9D0A-50724A7F5373</key>
+		<key>AEA1CE8C-4362-4134-92E2-7479821061FB</key>
+		<dict>
+			<key>from</key>
+			<string>579A45C3-23C4-4BDA-8A7F-1B15BE9281E1 - 579A45C3-23C4-4BDA-8A7F-1B15BE9281E1</string>
+			<key>to</key>
+			<string>F06C8A55-7AC5-48D1-B927-B950D48F425C - F06C8A55-7AC5-48D1-B927-B950D48F425C</string>
+		</dict>
+		<key>BB28A397-DD5D-42D0-B410-6AC10841B068</key>
 		<dict>
 			<key>from</key>
 			<string>53B3EC2A-3006-481C-B785-90A761F845DA - 53B3EC2A-3006-481C-B785-90A761F845DA</string>
 			<key>to</key>
-			<string>F06C8A55-7AC5-48D1-B927-B950D48F425C - F06C8A55-7AC5-48D1-B927-B950D48F425C</string>
+			<string>579A45C3-23C4-4BDA-8A7F-1B15BE9281E1 - 579A45C3-23C4-4BDA-8A7F-1B15BE9281E1</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>

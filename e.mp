@@ -153,7 +153,7 @@ show zcaption;
 cross_point(origin);
 draw origin--z3 dashed evenly withcolor red withpen pencircle scaled 3/4;
 draw p1;
-s20 := s10 & "label.ulft(TEX(s2), origin rotated alpha shifted shift);" & "label.top(TEX(s5), z2 rotated alpha shifted shift);";
+s20 := s10 & "label.ulft(TEX(s2), origin rotated alpha shifted shift);" & "label.bot(TEX(s5), z2 rotated alpha shifted shift);";
 exportit(currentpicture, 2, s20)("Pick a point $O$ not on $AB$ and construct the circle centered at $O$ through $B$. Label the intersection of the circle with $AB$ as $D$.");
 show zcaption;
 
